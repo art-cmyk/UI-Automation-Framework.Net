@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Parliament.TestAutomation.Selenium.Extensions</id>
+    <version>$version$</version>
+    <title>Parliament.TestAutomation.Selenium.Extensions</title>
+    <authors>PDS Automation Experts</authors>
+    <owners>PDS Automation Experts</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides some useful extensions to the standard Selenium libraries.</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright @  PDS 2016</copyright>
+    <tags>TestAutomation Selenium</tags>
+	<dependencies>
+      <dependency id="EnterpriseLibrary.Common" version="6.0.1304.0" />
+      <dependency id="EnterpriseLibrary.Logging" version="6.0.1304.0" />
+      <dependency id="HashTag.Core" version="[13.10.22.7]"  />
+      <dependency id="HashTag.EntLib" version="[13.10.22.7]" />
+      <dependency id="Newtonsoft.Json" version="8.0.3" />
+      <dependency id="Selenium.Support" version="2.53.0" />
+      <dependency id="Selenium.WebDriver" version="2.53.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Parliament.TestAutomation.Selenium.Extensions.dll" target="lib\NET461" />
+    <file src="bin\Release\Parliament.TestAutomation.Selenium.Extensions.pdb" target="lib\NET461" />
+    <file src="bin\Release\Parliament.TestAutomation.Selenium.Extensions.xml" target="lib\NET461" />
+  </files>
+</package>

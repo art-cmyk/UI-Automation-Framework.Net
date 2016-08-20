@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SeleniumHubNodeLauncher", "SeleniumHubNodeLauncher", "{746D095B-2926-42A8-B048-93F2871316AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.SeleniumHubNodeLauncher.Library", "Tools\Ravitej.Automation.SeleniumHubNodeLauncher\Ravitej.Automation.SeleniumHubNodeLauncher.Library\Ravitej.Automation.SeleniumHubNodeLauncher.Library.csproj", "{BAE1D104-4FCE-4820-9236-DC2CD0AA3074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests", "Tools\Ravitej.Automation.SeleniumHubNodeLauncher\Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests\Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests.csproj", "{D3988C06-49E9-4890-AE1C-749C14345754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.SeleniumHubNodeLauncher.Console", "Tools\Ravitej.Automation.SeleniumHubNodeLauncher\Ravitej.Automation.SeleniumHubNodeLauncher.Console\Ravitej.Automation.SeleniumHubNodeLauncher.Console.csproj", "{2C0B1A94-42DA-450E-AB24-8AECE7C218C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms", "Tools\Ravitej.Automation.SeleniumHubNodeLauncher\Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms\Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms.csproj", "{78A2BB11-2DC3-4F19-AC7C-8C294E372584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurator", "Configurator", "{8E7CC992-29CC-4EED-8264-3AF6A1C63692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.Configurator", "Tools\Ravitej.Automation.Configurator\Ravitej.Automation.Configurator.csproj", "{0DD26220-F95B-4163-AB27-3C08A8F9C63B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAE1D104-4FCE-4820-9236-DC2CD0AA3074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE1D104-4FCE-4820-9236-DC2CD0AA3074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE1D104-4FCE-4820-9236-DC2CD0AA3074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE1D104-4FCE-4820-9236-DC2CD0AA3074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3988C06-49E9-4890-AE1C-749C14345754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3988C06-49E9-4890-AE1C-749C14345754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3988C06-49E9-4890-AE1C-749C14345754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3988C06-49E9-4890-AE1C-749C14345754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B1A94-42DA-450E-AB24-8AECE7C218C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B1A94-42DA-450E-AB24-8AECE7C218C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B1A94-42DA-450E-AB24-8AECE7C218C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B1A94-42DA-450E-AB24-8AECE7C218C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A2BB11-2DC3-4F19-AC7C-8C294E372584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A2BB11-2DC3-4F19-AC7C-8C294E372584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A2BB11-2DC3-4F19-AC7C-8C294E372584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A2BB11-2DC3-4F19-AC7C-8C294E372584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD26220-F95B-4163-AB27-3C08A8F9C63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD26220-F95B-4163-AB27-3C08A8F9C63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD26220-F95B-4163-AB27-3C08A8F9C63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD26220-F95B-4163-AB27-3C08A8F9C63B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAE1D104-4FCE-4820-9236-DC2CD0AA3074} = {746D095B-2926-42A8-B048-93F2871316AE}
+		{D3988C06-49E9-4890-AE1C-749C14345754} = {746D095B-2926-42A8-B048-93F2871316AE}
+		{2C0B1A94-42DA-450E-AB24-8AECE7C218C5} = {746D095B-2926-42A8-B048-93F2871316AE}
+		{78A2BB11-2DC3-4F19-AC7C-8C294E372584} = {746D095B-2926-42A8-B048-93F2871316AE}
+		{0DD26220-F95B-4163-AB27-3C08A8F9C63B} = {8E7CC992-29CC-4EED-8264-3AF6A1C63692}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ravitej-aluru.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.Library\\Ravitej.Automation.SeleniumHubNodeLauncher.Library.csproj
+		SccProjectTopLevelParentUniqueName1 = Ravitej.Automation.Tools.sln
+		SccProjectName1 = Tools/Ravitej.Automation.SeleniumHubNodeLauncher/Ravitej.Automation.SeleniumHubNodeLauncher.Library
+		SccLocalPath1 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.Library
+		SccProjectUniqueName2 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests\\Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = Ravitej.Automation.Tools.sln
+		SccProjectName2 = Tools/Ravitej.Automation.SeleniumHubNodeLauncher/Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests
+		SccLocalPath2 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.Unit.Tests
+		SccProjectUniqueName3 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.Console\\Ravitej.Automation.SeleniumHubNodeLauncher.Console.csproj
+		SccProjectTopLevelParentUniqueName3 = Ravitej.Automation.Tools.sln
+		SccProjectName3 = Tools/Ravitej.Automation.SeleniumHubNodeLauncher/Ravitej.Automation.SeleniumHubNodeLauncher.Console
+		SccLocalPath3 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.Console
+		SccProjectUniqueName4 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms\\Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms.csproj
+		SccProjectTopLevelParentUniqueName4 = Ravitej.Automation.Tools.sln
+		SccProjectName4 = Tools/Ravitej.Automation.SeleniumHubNodeLauncher/Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms
+		SccLocalPath4 = Tools\\Ravitej.Automation.SeleniumHubNodeLauncher\\Ravitej.Automation.SeleniumHubNodeLauncher.UI.WinForms
+		SccProjectUniqueName5 = Tools\\Ravitej.Automation.Configurator\\Ravitej.Automation.Configurator.csproj
+		SccProjectTopLevelParentUniqueName5 = Ravitej.Automation.Tools.sln
+		SccProjectName5 = Tools/Ravitej.Automation.Configurator
+		SccLocalPath5 = Tools\\Ravitej.Automation.Configurator
+	EndGlobalSection
+EndGlobal

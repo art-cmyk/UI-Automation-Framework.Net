@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreFramework", "CoreFramework", "{27268406-58EB-4CBB-9CAB-7EC69A46CF98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiTests", "UiTests", "{259BA15F-1AF6-40AD-A673-649704C8CD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.Common", "CoreFramework\Ravitej.Automation.Common\Ravitej.Automation.Common.csproj", "{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.Selenium.Extensions", "CoreFramework\Ravitej.Automation.Selenium.Extensions\Ravitej.Automation.Selenium.Extensions.csproj", "{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.UI.Tests", "CoreFramework\Ravitej.Automation.UI.Tests\Ravitej.Automation.UI.Tests.csproj", "{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.Moonpig.PageObjects", "UiTests\Ravitej.Automation.Sample.PageObjects\Ravitej.Automation.Moonpig.PageObjects.csproj", "{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravitej.Automation.Moonpig.Ui.Tests", "UiTests\Ravitej.Automation.Sample.Ui.Tests\Ravitej.Automation.Moonpig.Ui.Tests.csproj", "{A738D0FA-6B6F-441B-98D0-50D499A874B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Debug|x64.ActiveCfg = Debug|x64
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Debug|x64.Build.0 = Debug|x64
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Debug|x86.ActiveCfg = Debug|x86
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Debug|x86.Build.0 = Debug|x86
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Release|x64.ActiveCfg = Release|x64
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Release|x64.Build.0 = Release|x64
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Release|x86.ActiveCfg = Release|x86
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}.Release|x86.Build.0 = Release|x86
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Debug|x64.ActiveCfg = Debug|x64
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Debug|x64.Build.0 = Debug|x64
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Debug|x86.ActiveCfg = Debug|x86
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Debug|x86.Build.0 = Debug|x86
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Release|x64.ActiveCfg = Release|x64
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Release|x64.Build.0 = Release|x64
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Release|x86.ActiveCfg = Release|x86
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF}.Release|x86.Build.0 = Release|x86
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Debug|x64.ActiveCfg = Debug|x64
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Debug|x64.Build.0 = Debug|x64
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Debug|x86.ActiveCfg = Debug|x86
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Debug|x86.Build.0 = Debug|x86
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Release|x64.ActiveCfg = Release|x64
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Release|x64.Build.0 = Release|x64
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Release|x86.ActiveCfg = Release|x86
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3}.Release|x86.Build.0 = Release|x86
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Debug|x64.ActiveCfg = Debug|x64
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Debug|x64.Build.0 = Debug|x64
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Debug|x86.Build.0 = Debug|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Release|x64.ActiveCfg = Release|x64
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Release|x64.Build.0 = Release|x64
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Release|x86.ActiveCfg = Release|Any CPU
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2}.Release|x86.Build.0 = Release|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Debug|x64.ActiveCfg = Debug|x64
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Debug|x64.Build.0 = Debug|x64
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Release|x64.ActiveCfg = Release|x64
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Release|x64.Build.0 = Release|x64
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D} = {27268406-58EB-4CBB-9CAB-7EC69A46CF98}
+		{E6E1D870-6125-4D3B-B082-B69B3C7D16EF} = {27268406-58EB-4CBB-9CAB-7EC69A46CF98}
+		{5ED80EA3-6E4D-4CA3-B9C4-4940133D17C3} = {27268406-58EB-4CBB-9CAB-7EC69A46CF98}
+		{5AD0E231-5B89-4E5B-B8A1-D3C669959BA2} = {259BA15F-1AF6-40AD-A673-649704C8CD95}
+		{A738D0FA-6B6F-441B-98D0-50D499A874B9} = {259BA15F-1AF6-40AD-A673-649704C8CD95}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ravitej-aluru.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CoreFramework\\Ravitej.Automation.Common\\Ravitej.Automation.Common.csproj
+		SccProjectTopLevelParentUniqueName1 = Ravitej.Automation.Moonpig.Ui.Tests.sln
+		SccProjectName1 = CoreFramework/Ravitej.Automation.Common
+		SccLocalPath1 = CoreFramework\\Ravitej.Automation.Common
+		SccProjectUniqueName2 = CoreFramework\\Ravitej.Automation.Selenium.Extensions\\Ravitej.Automation.Selenium.Extensions.csproj
+		SccProjectTopLevelParentUniqueName2 = Ravitej.Automation.Moonpig.Ui.Tests.sln
+		SccProjectName2 = CoreFramework/Ravitej.Automation.Selenium.Extensions
+		SccLocalPath2 = CoreFramework\\Ravitej.Automation.Selenium.Extensions
+		SccProjectUniqueName3 = CoreFramework\\Ravitej.Automation.UI.Tests\\Ravitej.Automation.UI.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = Ravitej.Automation.Moonpig.Ui.Tests.sln
+		SccProjectName3 = CoreFramework/Ravitej.Automation.UI.Tests
+		SccLocalPath3 = CoreFramework\\Ravitej.Automation.UI.Tests
+		SccProjectUniqueName4 = UiTests\\Ravitej.Automation.Sample.PageObjects\\Ravitej.Automation.Moonpig.PageObjects.csproj
+		SccProjectTopLevelParentUniqueName4 = Ravitej.Automation.Moonpig.Ui.Tests.sln
+		SccProjectName4 = UiTests/Ravitej.Automation.Sample.PageObjects
+		SccLocalPath4 = UiTests\\Ravitej.Automation.Sample.PageObjects
+		SccProjectUniqueName5 = UiTests\\Ravitej.Automation.Sample.Ui.Tests\\Ravitej.Automation.Moonpig.Ui.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = Ravitej.Automation.Moonpig.Ui.Tests.sln
+		SccProjectName5 = UiTests/Ravitej.Automation.Sample.Ui.Tests
+		SccLocalPath5 = UiTests\\Ravitej.Automation.Sample.Ui.Tests
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EB8B951-ECEC-43AC-863F-CA038A3BEF4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ravitej.Automation.Common</RootNamespace>
+    <AssemblyName>Ravitej.Automation.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Ravitej.Automation.Common.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\x86\Release\Ravitej.Automation.Common.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\x64\Release\Ravitej.Automation.Common.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="appium-dotnet-driver, Version=1.5.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Appium.WebDriver.1.5.1.1\lib\net40\appium-dotnet-driver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HashTag.Core, Version=13.10.22.7, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HashTag.Core.13.10.22.7\lib\net45\HashTag.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HashTag.EntLib.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HashTag.EntLib.13.10.22.7\lib\Net45\HashTag.EntLib.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=2.53.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Selenium.WebDriver.2.53.0\lib\net40\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.53.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Selenium.Support.2.53.0\lib\net40\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\AppUnderTest\AutSettings.cs" />
+    <Compile Include="Config\AppUnderTest\DatabaseSettings.cs" />
+    <Compile Include="Config\AppUnderTest\User.cs" />
+    <Compile Include="Config\DriverSession\AdditionalCapability.cs" />
+    <Compile Include="Config\DriverSession\Browser.cs" />
+    <Compile Include="Config\DriverSession\DriverSettings.cs" />
+    <Compile Include="Config\DriverSession\DriverTimeouts.cs" />
+    <Compile Include="Config\DriverSession\Platform.cs" />
+    <Compile Include="Config\ISelfHydratable.cs" />
+    <Compile Include="Config\ISelfHydratableSetting.cs" />
+    <Compile Include="Config\PersistableSettings.cs" />
+    <Compile Include="Config\RijndaelProtectedConfigurationProvider.cs" />
+    <Compile Include="Config\SettingsUpdater\BaseSettingsUpdater.cs" />
+    <Compile Include="Config\SettingsUpdater\ISettingsUpdater.cs" />
+    <Compile Include="Dependency\AppWide.cs" />
+    <Compile Include="DriverFactories\AndroidDriverFactory.cs" />
+    <Compile Include="DriverFactories\ChromeDriverFactory.cs" />
+    <Compile Include="DriverFactories\FirefoxDriverFactory.cs" />
+    <Compile Include="DriverFactories\IDriverFactory.cs" />
+    <Compile Include="DriverFactories\IOSDriverFactory.cs" />
+    <Compile Include="DriverFactories\RemoteWebDriverFactory.cs" />
+    <Compile Include="Drivers\CapabilityProviders\BaseCapabilityProvider.cs" />
+    <Compile Include="Drivers\CapabilityProviders\InternalCapabilityProvider.cs" />
+    <Compile Include="Drivers\CapabilityProviders\SauceLabsCapabilityProvider.cs" />
+    <Compile Include="Drivers\CapabilityProviders\CapabilityFactory.cs" />
+    <Compile Include="Drivers\CapabilityProviders\BrowserStackCapabilityProvider.cs" />
+    <Compile Include="Drivers\CapabilityProviders\CrossBrowserTestingCapabilityProvider.cs" />
+    <Compile Include="Drivers\CapabilityProviders\HubType.cs" />
+    <Compile Include="Drivers\CapabilityProviders\ICapabilityProvider.cs" />
+    <Compile Include="Config\SuiteSettings\ILaunchPageHandler.cs" />
+    <Compile Include="Config\IPersistableSettings.cs" />
+    <Compile Include="Config\SuiteSettings\ISuiteSettings.cs" />
+    <Compile Include="Config\PermittedSettingsValidatingItem.cs" />
+    <Compile Include="Config\SuiteSettings\SuiteSettings.cs" />
+    <Compile Include="DataProviders\IExternalDataProvider.cs" />
+    <Compile Include="DataProviders\IExternalDataQuery.cs" />
+    <Compile Include="DataProviders\IExternalDataResult.cs" />
+    <Compile Include="DataProviders\Sql\SqlCountDataProvider.cs" />
+    <Compile Include="DataProviders\Sql\SqlCountResult.cs" />
+    <Compile Include="DataProviders\Sql\SqlDataProviderBase.cs" />
+    <Compile Include="DataProviders\Sql\SqlQueryExternalDataProvider.cs" />
+    <Compile Include="DataProviders\Sql\SqlQuery.cs" />
+    <Compile Include="DataProviders\Sql\SqlQueryResult.cs" />
+    <Compile Include="Drivers\IDriverSession.cs" />
+    <Compile Include="Exceptions\ImageComparisonSizeDifferenceException.cs" />
+    <Compile Include="PageObjects\Components\BusyIndicator\Selenium\ProcessingSpinner.cs" />
+    <Compile Include="PageObjects\Components\Menu\IMenu.cs" />
+    <Compile Include="PageObjects\Components\Menu\IMenuItem.cs" />
+    <Compile Include="PageObjects\Components\Menu\Selenium\Menu.cs" />
+    <Compile Include="PageObjects\Components\Menu\Selenium\MenuItem.cs" />
+    <Compile Include="PageObjects\Components\ModalDialog\IModalDialog.cs" />
+    <Compile Include="PageObjects\Components\ModalDialog\Selenium\ModalDialog.cs" />
+    <Compile Include="PageObjects\Components\SlidingPanel\ISlidingPanel.cs" />
+    <Compile Include="PageObjects\Components\SlidingPanel\Selenium\SlidingPanel.cs" />
+    <Compile Include="PageObjects\CustomAttributes\UserInterfaceElementDefinitionSet.cs" />
+    <Compile Include="PageObjects\Exceptions\InvalidPageDomStructureException.cs" />
+    <Compile Include="PageObjects\Components\AlertDialog\IAlertDialog.cs" />
+    <Compile Include="PageObjects\Components\AlertDialog\Selenium\AlertDialog.cs" />
+    <Compile Include="PageObjects\Components\BusyIndicator\IProcessingSpinner.cs" />
+    <Compile Include="PageObjects\CustomAttributes\UserInterfaceElement.cs" />
+    <Compile Include="Dependency\DependencyInjector.cs" />
+    <Compile Include="PageObjects\Exceptions\NotOnPageException.cs" />
+    <Compile Include="PageObjects\Generator\ControlType.cs" />
+    <Compile Include="PageObjects\Generator\GeneratorBase.cs" />
+    <Compile Include="PageObjects\Generator\IPageObjectGenerator.cs" />
+    <Compile Include="PageObjects\Components\BasePage\IBasePage.cs" />
+    <Compile Include="PageObjects\SelfValidation\IExcludeElementsWhenAChildObject.cs" />
+    <Compile Include="PageObjects\Interactables\IInteractable.cs" />
+    <Compile Include="PageObjects\Interactables\Selenium\Interactable.cs" />
+    <Compile Include="PageObjects\SelfValidation\ISelfValidatingPageObject.cs" />
+    <Compile Include="PageObjects\Components\BasePage\Selenium\BasePage.cs" />
+    <Compile Include="PageObjects\Interactables\Selenium\InteractableDriverMethodsIntFrame.cs" />
+    <Compile Include="PageObjects\Interactables\Selenium\InteractableDriverMethodsStringFrame.cs" />
+    <Compile Include="PageObjects\Interactables\Selenium\InteractableDriverMethodsWebElementFrame.cs" />
+    <Compile Include="PageObjects\Services\PageDomValidator.cs" />
+    <Compile Include="PageObjects\SelfValidation\SelfValidatingItem.cs" />
+    <Compile Include="PageObjects\SelfValidation\SelfValidatingPageObjectSchemaGenerator.cs" />
+    <Compile Include="PageObjects\Services\OnPageChecker.cs" />
+    <Compile Include="PageObjects\Session\ISession.cs" />
+    <Compile Include="PageObjects\Session\Navigators\GoTo.cs" />
+    <Compile Include="PageObjects\Session\Navigators\INavigator.cs" />
+    <Compile Include="PageObjects\Session\Navigators\Navigator.cs" />
+    <Compile Include="PageObjects\Session\Navigators\OnPage.cs" />
+    <Compile Include="PageObjects\Session\Session.cs" />
+    <Compile Include="PageObjects\SelfValidation\SelfValidatingPageObjectSchema.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Drivers\WebDriverSession.cs" />
+    <Compile Include="Config\ExecutionSettings.cs" />
+    <Compile Include="Config\SettingsType.cs" />
+    <Compile Include="Tests\StoryAcceptance.cs" />
+    <Compile Include="Tests\TestBase.cs" />
+    <Compile Include="Logging\Logging.cs" />
+    <Compile Include="Helpers\PasswordGenerator.cs" />
+    <Compile Include="Helpers\ScreenshotHelper.cs" />
+    <Compile Include="Utilities\CustomDescriptionAttribute.cs" />
+    <Compile Include="Utilities\EnumUtilities.cs" />
+    <Compile Include="Utilities\StringExtensions.cs" />
+    <Compile Include="Utilities\Imaging\ImagingUtilities.cs" />
+    <Compile Include="Utilities\Imaging\SpeechBubble.cs" />
+    <Compile Include="Utilities\Pause.cs" />
+    <Compile Include="Utilities\Persistance\SettingsPersistance.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Ravitej.Automation.Common.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ravitej.Automation.Selenium.Extensions\Ravitej.Automation.Selenium.Extensions.csproj">
+      <Project>{e6e1d870-6125-4d3b-b082-b69b3c7d16ef}</Project>
+      <Name>Ravitej.Automation.Selenium.Extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

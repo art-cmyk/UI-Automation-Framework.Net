@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Parliament.TestAutomation.UI.Tests</id>
+    <version>$version$</version>
+    <title>Parliament.TestAutomation.UI.Tests</title>
+    <authors>PDS Automation Experts</authors>
+    <owners>PDS Automation Experts</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a set of common functionality related writing UI test suites for web and mobile applications.</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright @  PDS 2016</copyright>
+    <tags>TestAutomation Selenium</tags>
+	<dependencies>
+      <dependency id="NUnit" version="2.6.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Parliament.TestAutomation.UI.Tests.dll" target="lib\NET461" />
+    <file src="bin\Release\Parliament.TestAutomation.UI.Tests.pdb" target="lib\NET461" />
+    <file src="bin\Release\Parliament.TestAutomation.UI.Tests.xml" target="lib\NET461" />
+  </files>
+</package>
