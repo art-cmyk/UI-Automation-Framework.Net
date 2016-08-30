@@ -4,7 +4,7 @@ mono:
   - latest
 install:
   - nuget restore Ravitej.Automation.All.sln
-  - nuget install NUnit.Runners -OutputDirectory testrunner
+  - nuget install NUnit.Runners -OutputDirectory TestRunner
 script:
   - xbuild /p:Configuration=Release Ravitej.Automation.All.sln
-  - mono ./testrunner/NUnit.Runners.*/tools/nunit-console.exe ./CoreFramework/Tests/Ravitej.Automation.Common.Tests/bin/Release/Ravitej.Automation.Common.Tests.dll
+  - mono ./TestRunner/NUnit.Runners.*/tools/nunit-console.exe ./CoreFramework/Tests/Ravitej.Automation.Common.Tests/bin/Release/Ravitej.Automation.Common.Tests.dll
