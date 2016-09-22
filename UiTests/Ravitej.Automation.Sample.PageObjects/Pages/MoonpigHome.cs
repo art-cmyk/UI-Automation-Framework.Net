@@ -41,7 +41,7 @@ namespace Ravitej.Automation.Sample.PageObjects.Pages
             using (var checker = new OnPageChecker(Driver, Name))
             {
                 return checker.ElementExistsOnPage(By.CssSelector("div.hero-banner-fullwidth"))
-                    .TextExistsOnPage("Why not browse our")
+                    //.TextExistsOnPage("Why not browse our")
                     .Confirm(throwWhenNotDisplayed);
             }
         }
