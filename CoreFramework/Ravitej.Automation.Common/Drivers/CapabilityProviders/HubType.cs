@@ -15,6 +15,12 @@
         Internal,
 
         /// <summary>
+        /// A single or multi node hub which is 
+        /// started within Docker containers
+        /// </summary>
+        Docker,
+
+        /// <summary>
         /// BrowserStack.com cloud hub
         /// </summary>
         BrowserStack,
